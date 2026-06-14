@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Home Agency | Real Estate Made Simple</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .ultra-bold { font-family: 'Cabinet Grotesk', sans-serif; font-weight: 800; }
+    </style>
+</head>
+<body class="bg-white text-black antialiased">
+
+    <nav class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md z-50">
+        <div class="max-w-7xl mx-auto px-8 h-24 flex items-center justify-between">
+            <a href="#" class="ultra-bold text-3xl tracking-tight flex items-center gap-2">
+                <span class="w-3.5 h-3.5 bg-orange-700 inline-block"></span>HOMEAGENCY.
+            </a>
+            <div class="hidden lg:flex items-center space-x-10 font-semibold text-xs uppercase tracking-wider text-gray-600">
+                <a href="#buy" class="hover:text-orange-700 transition-colors">Buy A House</a>
+                <a href="#sell" class="hover:text-orange-700 transition-colors">Sell Your House</a>
+                <a href="#listings" class="hover:text-orange-700 transition-colors">Our Properties</a>
+                <a href="#about" class="hover:text-orange-700 transition-colors">Who We Are</a>
+            </div>
+            <div>
+                <a href="#contact" class="bg-black text-white text-xs uppercase tracking-widest font-bold px-8 py-4 inline-block hover:bg-orange-700 transition-all shadow-md">
+                    Talk To Us Now
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="min-h-screen pt-24 flex items-center px-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 py-12 w-full items-center">
+            
+            <div class="lg:col-span-7 flex flex-col justify-center space-y-8">
+                <div class="inline-block bg-orange-50 text-orange-800 text-xs font-bold tracking-widest uppercase px-4 py-2 w-max rounded">
+                    We Help Real People Move
+                </div>
+                <h1 class="ultra-bold text-6xl md:text-8xl tracking-tight leading-none text-gray-900">
+                    Find a place <br>you love. <br><span class="text-orange-700">No stress.</span>
+                </h1>
+                <p class="text-lg text-gray-600 max-w-lg font-normal leading-relaxed">
+                    Buying or selling a house can feel impossible. We make it easy. We show you great homes, find real buyers, and handle all the confusing paperwork for you.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 pt-2">
+                    <a href="#listings" class="bg-black text-white text-center px-8 py-5 uppercase tracking-widest font-bold text-xs hover:bg-orange-700 transition-all shadow-lg">
+                        See All Homes For Sale
+                    </a>
+                    <a href="#sell" class="bg-gray-100 text-black text-center px-8 py-5 uppercase tracking-widest font-bold text-xs hover:bg-black hover:text-white transition-all">
+                        Sell Your Current House
+                    </a>
+                </div>
+            </div>
+
+            <div class="lg:col-span-5 relative min-h-[500px] lg:min-h-[600px] w-full flex items-center justify-center">
+                <div class="w-11/12 h-[85%] bg-stone-100 shadow-2xl relative flex items-center justify-center text-center p-8 overflow-hidden rounded-sm">
+                    <span class="text-xs uppercase font-bold tracking-wider text-gray-400 z-10">[ Image: Happy Family Outside New Home ]</span>
+                    <div class="absolute inset-0 bg-gradient-to-tr from-stone-200/50 to-transparent"></div>
+                </div>
+                <div class="absolute bottom-0 left-0 w-2/3 h-[40%] bg-orange-700 shadow-2xl p-6 flex items-center justify-center text-center rounded-sm">
+                    <span class="text-xs uppercase font-bold tracking-wider text-white">[ Image: Modern Living Room Interior ]</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="buy" class="py-36 bg-stone-50 px-8">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-20 items-center">
+            
+            <div class="lg:col-span-6 order-2 lg:order-1 relative py-4">
+                <div class="bg-white p-4 shadow-xl rounded-sm">
+                    <div class="bg-gray-200 aspect-video w-full flex items-center justify-center text-center p-6 text-xs uppercase font-bold text-gray-400">
+                        [ Image: Keys Handed To Home Buyer ]
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 mt-4">
+                        <div class="bg-black text-white p-6 rounded-sm">
+                            <p class="ultra-bold text-4xl text-orange-500">100%</p>
+                            <p class="text-[11px] uppercase font-bold tracking-wider text-gray-300 mt-1">Clean Titles Only</p>
+                        </div>
+                        <div class="bg-stone-100 text-black p-6 rounded-sm">
+                            <p class="ultra-bold text-4xl">Zero</p>
+                            <p class="text-[11px] uppercase font-bold tracking-wider text-gray-500 mt-1">Hidden Fees</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-6 order-1 lg:order-2 space-y-6">
+                <span class="text-xs uppercase font-bold tracking-widest text-orange-700 block">Looking To Move?</span>
+                <h2 class="ultra-bold text-4xl md:text-6xl tracking-tight leading-tight">
+                    How we help you buy a house.
+                </h2>
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    You tell us what you want, where you want to live, and what your budget is. We find hidden houses that fit you perfectly. We stay with you until you lock the door for the first time.
+                </p>
+                <div class="space-y-4 pt-2">
+                    <div class="flex items-start gap-4">
+                        <div class="w-6 h-6 bg-orange-700 rounded-full flex items-center justify-center text-white text-xs font-bold shrink-0 mt-1">1</div>
+                        <p class="text-gray-800 font-medium">We drive you around and show you houses in person.</p>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-6 h-6 bg-black rounded-full flex items-center justify-center text-white text-xs font-bold shrink-0 mt-1">2</div>
+                        <p class="text-gray-800 font-medium">We negotiate aggressively so you pay a lower price.</p>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-6 h-6 bg-orange-700 rounded-full flex items-center justify-center text-white text-xs font-bold shrink-0 mt-1">3</div>
+                        <p class="text-gray-800 font-medium">We carefully inspect the roofs, pipes, and structures for any problems.</p>
+                    </div>
+                </div>
+                <div class="pt-4">
+                    <a href="#contact" class="bg-black text-white px-8 py-5 uppercase tracking-widest font-bold text-xs hover:bg-orange-700 transition-all inline-block shadow-lg">
+                        Start Shopping With Us
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="sell" class="py-36 px-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+            
+            <div class="lg:col-span-7 space-y-6">
+                <span class="text-xs uppercase font-bold tracking-widest text-orange-700 block">Ready to Sell?</span>
+                <h2 class="ultra-bold text-4xl md:text-6xl tracking-tight leading-none text-gray-900">
+                    Find out how much your house is worth today.
+                </h2>
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    Don't guess your house value based on old data. Paste your address below. A real local agent from our team will calculate your true cash price and email you a clean report.
+                </p>
+                
+                <form class="bg-stone-50 p-6 shadow-xl max-w-2xl space-y-4 rounded-sm" onsubmit="event.preventDefault(); alert('We are looking up your house value now!');">
+                    <div class="flex flex-col sm:flex-row gap-2">
+                        <input type="text" required class="flex-grow bg-white p-5 text-sm focus:outline-none shadow-sm rounded-sm" placeholder="Type your street address here...">
+                        <button type="submit" class="bg-orange-700 text-white font-bold uppercase tracking-widest text-xs px-8 py-5 hover:bg-black transition-colors shadow-md whitespace-nowrap">
+                            Check Price Free →
+                        </button>
+                    </div>
+                    <p class="text-xs text-gray-500 font-medium">No annoying sales calls. Just an honest email with your house value.</p>
+                </form>
+            </div>
+
+            <div class="lg:col-span-5 grid grid-cols-2 gap-4 w-full">
+                <div class="bg-stone-100 aspect-square flex items-center justify-center p-4 text-center text-xs font-bold text-gray-400 rounded-sm shadow-sm">
+                    [ Image: Well-Kept Modern Backyard ]
+                </div>
+                <div class="bg-black text-white p-8 flex flex-col justify-between aspect-square rounded-sm shadow-lg">
+                    <span class="text-xs uppercase tracking-widest text-orange-400 font-bold">Fast Speed</span>
+                    <p class="ultra-bold text-2xl leading-tight">Houses sell in 14 days on average</p>
+                </div>
+                <div class="bg-orange-700 text-white p-8 flex flex-col justify-between aspect-square rounded-sm shadow-lg">
+                    <span class="text-xs uppercase tracking-widest text-white font-bold">Top Value</span>
+                    <p class="ultra-bold text-2xl leading-tight">We secure 5% more cash for you</p>
+                </div>
+                <div class="bg-stone-100 aspect-square flex items-center justify-center p-4 text-center text-xs font-bold text-gray-400 rounded-sm shadow-sm">
+                    [ Image: Close up of Sold Property Sign ]
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="listings" class="py-36 bg-stone-100 px-8">
+        <div class="max-w-7xl mx-auto space-y-16">
+            
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end">
+                <div class="space-y-2">
+                    <span class="text-xs uppercase font-bold tracking-widest text-orange-700 block">Beautiful Properties</span>
+                    <h2 class="ultra-bold text-4xl md:text-6xl tracking-tight text-gray-900">HOMES WE ARE SELLING NOW</h2>
+                </div>
+                <a href="#contact" class="bg-black text-white px-8 py-4 text-xs font-bold uppercase tracking-wider hover:bg-orange-700 transition-all shadow-md mt-6 md:mt-0">
+                    Ask About Other Homes
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                
+                <div class="bg-white p-6 group cursor-pointer shadow-xl hover:shadow-2xl transition-all rounded-sm">
+                    <div class="bg-stone-200 aspect-video w-full mb-6 relative flex items-center justify-center text-center p-4 text-xs font-bold text-gray-400 rounded-sm overflow-hidden">
+                        [ Big Property Image: Modern 2-Story Family House ]
+                        <div class="absolute top-4 left-4 bg-orange-700 text-white text-xs font-bold px-4 py-1.5 rounded-sm shadow">
+                            New On Market
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="ultra-bold text-2xl group-hover:text-orange-700 transition-colors">The Green Valley House</h3>
+                            <p class="text-sm text-gray-500 mt-1">4 Beds • 3 Baths • Large Green Backyard</p>
+                        </div>
+                        <span class="ultra-bold text-xl bg-gray-100 text-black px-4 py-2 rounded-sm">$450,000</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 group cursor-pointer shadow-xl hover:shadow-2xl transition-all rounded-sm">
+                    <div class="bg-stone-200 aspect-video w-full mb-6 relative flex items-center justify-center text-center p-4 text-xs font-bold text-gray-400 rounded-sm overflow-hidden">
+                        [ Big Property Image: Cozy Brick Home Near Schools ]
+                        <div class="absolute top-4 left-4 bg-black text-white text-xs font-bold px-4 py-1.5 rounded-sm shadow">
+                            Price Reduced
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="ultra-bold text-2xl group-hover:text-orange-700 transition-colors">The Brick Hill Cottage</h3>
+                            <p class="text-sm text-gray-500 mt-1">3 Beds • 2 Baths • Minutes Away From Schools</p>
+                        </div>
+                        <span class="ultra-bold text-xl bg-gray-100 text-black px-4 py-2 rounded-sm">$320,000</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-36 px-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-20 items-center">
+            
+            <div class="lg:col-span-5 relative">
+                <div class="w-full bg-stone-50 p-6 shadow-2xl rounded-sm">
+                    <div class="bg-gray-200 aspect-[3/4] w-full flex items-center justify-center text-center text-xs font-bold text-gray-400 rounded-sm mb-4">
+                        [ Photo: Team of Friendly Local Real Estate Agents ]
+                    </div>
+                    <p class="text-center font-bold text-stone-800">We treat you like close neighbors, always.</p>
+                </div>
+            </div>
+
+            <div class="lg:col-span-7 space-y-8">
+                <span class="text-xs uppercase font-bold tracking-widest text-orange-700 block">Get To Know Us</span>
+                <h2 class="ultra-bold text-4xl md:text-6xl tracking-tight leading-none">
+                    Real people helping you buy real houses.
+                </h2>
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    We started our business because we hated how confusing real estate companies were. We don't use confusing industry words or push you into signed agreements before you are ready. We talk normal, explain everything clearly, and fix any problems fast.
+                </p>
+                <div class="border-l-4 border-orange-700 pl-6 py-1 space-y-2">
+                    <p class="italic text-gray-700 text-lg font-medium">"They called me back in five minutes, found a house in my budget by Friday, and we moved in next month. So easy!"</p>
+                    <span class="block text-xs font-bold uppercase tracking-wider text-gray-400">— Linda K., Local Resident</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="py-36 bg-black text-white px-8">
+        <div class="max-w-4xl mx-auto">
+            
+            <div class="text-center space-y-4 mb-16">
+                <span class="text-xs uppercase tracking-widest text-orange-400 font-bold block">No Obligation</span>
+                <h2 class="ultra-bold text-4xl md:text-6xl tracking-tight">TALK WITH US TODAY</h2>
+                <p class="text-gray-400 max-w-md mx-auto text-sm leading-relaxed">
+                    Fill out the quick form below. It takes 1 minute. We will email or text you back right away to answer your questions.
+                </p>
+            </div>
+
+            <form class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left text-sm" onsubmit="event.preventDefault(); alert('Thank you! We will message you shortly.');">
+                
+                <div>
+                    <label class="block text-xs uppercase tracking-wider font-bold text-gray-300 mb-2">What is your name? *</label>
+                    <input type="text" required class="w-full bg-neutral-900 p-4 text-white focus:outline-none focus:ring-2 focus:ring-orange-500 rounded-sm" placeholder="e.g., John Smith">
+                </div>
+
+                <div>
+                    <label class="block text-xs uppercase tracking-wider font-bold text-gray-300 mb-2">Your Phone Number or Email *</label>
+                    <input type="text" required class="w-full bg-neutral-900 p-4 text-white focus:outline-none focus:ring-2 focus:ring-orange-500 rounded-sm" placeholder="e.g., 555-0199 or john@mail.com">
+                </div>
+
+                <div class="md:col-span-2">
+                    <label class="block text-xs uppercase tracking-wider font-bold text-gray-300 mb-3">What are you looking to do? *</label>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-black">
+                        <label class="bg-white p-4 text-center cursor-pointer text-xs uppercase font-bold tracking-widest block hover:bg-orange-700 hover:text-white transition-colors rounded-sm shadow-md">
+                            <input type="radio" name="main_goal" class="mr-2" checked> I Want To Buy A House
+                        </label>
+                        <label class="bg-white p-4 text-center cursor-pointer text-xs uppercase font-bold tracking-widest block hover:bg-orange-700 hover:text-white transition-colors rounded-sm shadow-md">
+                            <input type="radio" name="main_goal" class="mr-2"> I Want To Sell My House
+                        </label>
+                    </div>
+                </div>
+
+                <div class="md:col-span-2">
+                    <label class="block text-xs uppercase tracking-wider font-bold text-gray-300 mb-2">Tell us anything else here (Optional)</label>
+                    <textarea rows="4" class="w-full bg-neutral-900 p-4 text-white focus:outline-none focus:ring-2 focus:ring-orange-500 rounded-sm" placeholder="Tell us about the area or price you want..."></textarea>
+                </div>
+
+                <div class="md:col-span-2 pt-4">
+                    <button type="submit" class="w-full bg-orange-700 text-white py-5 text-xs uppercase tracking-widest font-bold hover:bg-white hover:text-black transition-all shadow-xl rounded-sm">
+                        Send Secure Message Now
+                    </button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="bg-white py-16 px-8 text-xs font-medium text-gray-500 shadow-inner">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="space-y-2 text-center md:text-left">
+                <span class="ultra-bold text-xl tracking-tighter text-black">HOMEAGENCY.</span>
+                <p>© 2026 Home Agency Real Estate Co. We help you find properties easily.</p>
+                <p class="text-[10px] text-gray-400">Equal Opportunity Housing Partner • Registered Agency Code #884920</p>
+            </div>
+            <div class="flex space-x-6 text-black uppercase tracking-wider font-bold">
+                <a href="#" class="hover:text-orange-700 transition-colors">Privacy Rule</a>
+                <a href="#" class="hover:text-orange-700 transition-colors">Terms of Use</a>
+                <a href="#" class="hover:text-orange-700 transition-colors">Office Location</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
