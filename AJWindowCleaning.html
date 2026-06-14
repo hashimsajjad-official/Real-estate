@@ -1,0 +1,554 @@
+  <!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A&J Window Cleaning — Premium Architectural Detailing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['Syne', 'sans-serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-slate-900 selection:bg-blue-600 selection:text-white antialiased tracking-tight">
+
+    <header class="fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-slate-200">
+        <div class="max-w-[1700px] mx-auto px-6 lg:px-12 h-24 flex justify-between items-center">
+            <a href="#" class="flex items-center gap-3 group">
+                <img src="https://ajwindowsnmore.com/wp-content/uploads/2024/08/transparent-just-letters.png" alt="A&J Logo" class="h-14 w-auto object-contain">
+                <div class="flex flex-col font-display leading-[0.8] mt-1">
+                    <span class="font-extrabold text-2xl tracking-tighter text-blue-600">A&J</span>
+                    <span class="text-[9px] uppercase tracking-widest font-bold text-slate-400">WINDOW CLEANING</span>
+                </div>
+            </a>
+            
+            <nav class="hidden md:flex items-center space-x-12 font-bold text-sm uppercase tracking-widest text-slate-900">
+                <a href="#services" class="hover:text-blue-600 transition">Our Services</a>
+                <a href="#recurring" class="hover:text-blue-600 transition">Pricing & Plans</a>
+                <a href="#about" class="hover:text-blue-600 transition">About A&J</a>
+                <a href="#testimonials" class="hover:text-blue-600 transition">Reviews</a>
+            </nav>
+
+            <div class="hidden xl:flex items-center space-x-8">
+                <div class="text-right">
+                    <a href="tel:4353381628" class="font-bold text-sm text-slate-900 hover:text-blue-600 transition block">(435) 338-1628</a>
+                    <a href="mailto:ajwindows02@gmail.com" class="text-xs font-medium text-slate-400 hover:underline">ajwindows02@gmail.com</a>
+                </div>
+                <a href="#quote" class="bg-blue-600 hover:bg-slate-950 text-white text-xs font-bold uppercase tracking-widest px-8 py-4 transition duration-300">
+                    Book Estimate
+                </a>
+            </div>
+
+            <button id="menu-toggle" class="md:hidden text-2xl focus:outline-none text-slate-900">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-white border-b border-slate-200 p-8 flex flex-col space-y-6 font-display font-bold text-2xl shadow-xl">
+            <a href="#services">Services</a>
+            <a href="#recurring">Frequency Plans</a>
+            <a href="#about">Our Manifesto</a>
+            <a href="#quote" class="text-blue-600">Book Estimate</a>
+        </div>
+    </header>
+
+    <section class="pt-32 lg:pt-48 pb-16 px-6 lg:px-12 max-w-[1700px] mx-auto">
+        <div class="grid lg:grid-cols-12 gap-12 items-start border-b border-slate-200 pb-16">
+            <div class="lg:col-span-8 space-y-6">
+                <h1 class="font-display font-extrabold text-5xl sm:text-7xl lg:text-8xl tracking-tighter text-slate-900 leading-[0.85] uppercase">
+                    Advanced Glass <br><span class="text-blue-600">Restoration.</span>
+                </h1>
+                <p class="font-display font-bold text-xl sm:text-2xl text-slate-800 max-w-2xl leading-snug">
+                    Residential / Commercial Window Cleaning.
+                </p>
+            </div>
+            <div class="lg:col-span-4 lg:pt-12 space-y-6">
+                <p class="text-slate-500 font-light text-base leading-relaxed bg-white py-2 px-2">
+                    Window cleaning professionals with 5+ years of dedicated technical experience. Serving Tooele County, Utah, and surrounding commercial sectors. We execute pure surface cleaning with uncompromised clarity metrics.
+                </p>
+                <div class="bg-blue-50 border-l-4 border-blue-600 p-4">
+                    <p class="text-xs font-bold text-blue-900 uppercase tracking-wider"> B2B Commercial entities:</p>
+                    <p class="text-xs text-blue-700 font-medium">Inquire about our specialized structural high-volume pricing tiers.</p>
+                </div>
+                <div class="pt-2">
+                    <a href="#quote" class="inline-block bg-slate-900 hover:bg-blue-600 text-white font-bold uppercase tracking-widest text-xs px-8 py-4 transition duration-300">
+                        Request Free Quote 
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 grid lg:grid-cols-12 gap-6 items-stretch">
+            <div class="lg:col-span-9 bg-slate-900 overflow-hidden min-h-[40vh] lg:min-h-[60vh] relative group">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 via-transparent to-transparent z-10"></div>
+                <img src="https://ajwindowsnmore.com/wp-content/uploads/2026/04/Gemini_Generated_Image_7b5dbd7b5dbd7b5d.webp" 
+                     alt="A&J High Pressure Detailing Perspective" 
+                     class="w-full h-full object-cover object-center hover:grayscale-0 transition duration-1000 scale-105 group-hover:scale-100">
+                <div class="absolute bottom-8 left-8 z-20 text-white">
+                    <p class="text-[10px] font-mono uppercase tracking-widest text-blue-400">// PERSPECTIVE VIEW 01</p>
+                    <h3 class="font-display font-bold text-2xl uppercase tracking-tight">High-Pressure System Surface Fluid Capture</h3>
+                </div>
+            </div>
+            <div class="h-[312px] lg:col-span-3 bg-blue-600 p-12 text-white flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="text-5xl font-display font-black tracking-tighter">5+</div>
+                    <div class="text-xs font-bold uppercase tracking-widest text-blue-100">Years Active Architectural Detailing Operational Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-slate-50 border-t border-b border-slate-200 px-6 lg:px-12">
+        <div class="max-w-[1700px] mx-auto">
+            <div class="grid lg:grid-cols-12 gap-8 mb-20 items-end">
+                <div class="lg:col-span-8">
+                    <h2 class="font-display font-extrabold text-4xl sm:text-6xl tracking-tighter text-slate-900 uppercase leading-[0.9]">
+                        OUR HIGH-PRECISION <br>MAINTENANCE PROTOCOLS
+                    </h2>
+                </div>
+                <div class="lg:col-span-4">
+                    <p class="text-slate-500 font-light text-sm leading-relaxed">
+                       We use professional-grade purified water systems alongside specialized cleaning tools to completely remove stubborn buildup and restore your glass to a spotless, crystal-clear shine.
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="bg-white border border-slate-200 p-8 flex flex-col justify-between hover:border-blue-600 transition duration-300 group">
+                    <div class="space-y-6">
+                        <div class="w-full h-48 bg-slate-100 overflow-hidden relative">
+                            <img src="https://ajwindowsnmore.com/wp-content/uploads/2024/08/1.jpg" alt="Window Cleaning" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <h3 class="font-display font-bold text-2xl tracking-tight uppercase text-slate-900">Window Cleaning</h3>
+                        <p class="text-slate-500 font-light text-sm leading-relaxed">Enjoy crystal-clear, spotless windows that brighten your home and improve your view with our professional window cleaning.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-slate-200 p-8 flex flex-col justify-between hover:border-blue-600 transition duration-300 group">
+                    <div class="space-y-6">
+                        <div class="w-full h-48 bg-slate-100 overflow-hidden relative">
+                            <img src="https://ajwindowsnmore.com/wp-content/uploads/2024/08/2.jpg" alt="Screen Cleaning" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <h3 class="font-display font-bold text-2xl tracking-tight uppercase text-slate-900">Screen Cleaning & Repair</h3>
+                        <p class="text-slate-500 font-light text-sm leading-relaxed">Restore your window screens to like-new condition and keep out bugs with our expert screen repair and cleaning.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-slate-200 p-8 flex flex-col justify-between hover:border-blue-600 transition duration-300 group">
+                    <div class="space-y-6">
+                        <div class="w-full h-48 bg-slate-100 overflow-hidden relative">
+                            <img src="https://ajwindowsnmore.com/wp-content/uploads/2024/08/3.jpg" alt="Gutter Cleaning" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <h3 class="font-display font-bold text-2xl tracking-tight uppercase text-slate-900">Gutter Cleaning</h3>
+                        <p class="text-slate-500 font-light text-sm leading-relaxed">Keep your gutters functioning perfectly with our professional cleaning service, preventing blockages and ensuring proper drainage.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-slate-200 p-8 flex flex-col justify-between hover:border-blue-600 transition duration-300 group">
+                    <div class="space-y-6">
+                        <div class="w-full h-48 bg-slate-100 overflow-hidden relative">
+                            <img src="https://ajwindowsnmore.com/wp-content/uploads/2025/10/Untitled-design-6.png" alt="Window Well Covers" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <h3 class="font-display font-bold text-2xl tracking-tight uppercase text-slate-900">Window Well Covers</h3>
+                        <p class="text-slate-500 font-light text-sm leading-relaxed">Installation of durable, custom-fit window well covers to enhance safety, prevent debris buildup, and protect your basement from water and pests.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-slate-200 p-8 flex flex-col justify-between hover:border-blue-600 transition duration-300 group">
+                    <div class="space-y-6">
+                        <div class="w-full h-48 bg-slate-100 overflow-hidden relative">
+                            <img src="https://ajwindowsnmore.com/wp-content/uploads/2025/10/Untitled-design-5.png" alt="Solar Panel Cleaning" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <h3 class="font-display font-bold text-2xl tracking-tight uppercase text-slate-900">Solar Panel Cleaning</h3>
+                        <p class="text-slate-500 font-light text-sm leading-relaxed">Expert solar panel cleaning services to maximize energy efficiency, extend panel lifespan, and maintain optimal system performance year-round.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-slate-200 p-8 flex flex-col justify-between hover:border-blue-600 transition duration-300 group">
+                    <div class="space-y-6">
+                        <div class="w-full h-48 bg-slate-100 overflow-hidden relative">
+                            <img src="https://ajwindowsnmore.com/wp-content/uploads/2026/04/Gemini_Generated_Image_7b5dbd7b5dbd7b5d.webp" alt="Pressure Washing" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <h3 class="font-display font-bold text-2xl tracking-tight uppercase text-slate-900">Pressure Washing</h3>
+                        <p class="text-slate-500 font-light text-sm leading-relaxed">Revitalize your property with expert pressure washing in Tooele County and SLC. We remove tough stains from driveways and siding to restore your home’s curb appeal and value.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="recurring" class="py-24 bg-white px-6 lg:px-12">
+        <div class="max-w-[1700px] mx-auto grid lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-5 space-y-6">
+                <h2 class="font-display font-extrabold text-4xl sm:text-6xl tracking-tighter text-slate-900 uppercase leading-[0.9]">
+                    Recurring <br>Cleanings Array!
+                </h2>
+                <p class="text-slate-500 font-light text-base leading-relaxed">
+                    Dirt, dust, and hard water can damage your windows and ruin your view over time. Our regular maintenance plans keep your windows looking great year-round while unlocking reliable discount pricing.
+                </p>
+                <div class="pt-2">
+                    <a href="#quote" class="inline-flex items-center gap-4 bg-slate-900 hover:bg-blue-600 text-white text-xs uppercase font-bold tracking-widest px-8 py-5 transition duration-300">
+                        Set Up Regular Cleanings <i class="fa-solid fa-arrow-right-long"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="lg:col-span-7 grid sm:grid-cols-2 gap-6">
+                <div class="border-2 border-slate-900 p-10 flex flex-col justify-between min-h-[320px]">
+                    <div>
+                        <span class="text-[10px] font-mono text-slate-400 uppercase font-bold">[FREQUENCY TARGET 01]</span>
+                        <h3 class="font-display font-bold text-3xl uppercase tracking-tight text-slate-900 mt-2">2 Cleanings Yearly:</h3>
+                    </div>
+                    <div>
+                        <div class="font-display font-black text-7xl text-blue-600 leading-none mb-1">10%</div>
+                        <p class="text-xs uppercase font-bold tracking-wider text-slate-400">Off each cleaning deployment</p>
+                    </div>
+                </div>
+
+                <div class="bg-blue-600 text-white p-10 flex flex-col justify-between min-h-[320px]">
+                    <div>
+                        <span class="text-[10px] font-mono text-blue-200 uppercase font-bold">[FREQUENCY TARGET 02]</span>
+                        <h3 class="font-display font-bold text-3xl uppercase tracking-tight text-white mt-2">3+ Cleanings Yearly:</h3>
+                    </div>
+                    <div>
+                        <div class="font-display font-black text-7xl text-white leading-none mb-1">15%</div>
+                        <p class="text-xs uppercase font-bold tracking-wider text-blue-200">Off each cleaning deployment</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <section class="py-20 bg-slate-950 text-white px-6 lg:px-12">
+    <div class="max-w-4xl mx-auto text-center space-y-4 mb-12">
+        <h2 class="font-display font-extrabold text-3xl sm:text-5xl uppercase tracking-tighter">See our window cleaning in action!</h2>
+        <p class="text-slate-400 text-sm font-light max-w-xl mx-auto">Move the interactive slider back and forth to isolate chemical treatment extraction results in real-time.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 max-w-[1200px] mx-auto">
+        <div class="space-y-3">
+            <div class="relative aspect-[4/5] bg-slate-900 overflow-hidden border border-slate-800 img-container-box">
+                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://ajwindowsnmore.com/wp-content/uploads/2024/08/before1.jpg');"></div>
+                
+                <div id="slide-pane-1" class="absolute inset-y-0 left-0 overflow-hidden" style="width: 50%; border-right: 2px solid #2563eb;">
+                    <div class="absolute inset-0 bg-cover bg-center inner-frozen-img" style="background-image: url('https://ajwindowsnmore.com/wp-content/uploads/2024/08/after1.jpg');"></div>
+                </div>
+                
+                <input type="range" min="0" max="100" value="50" class="absolute inset-0 opacity-0 w-full h-full cursor-ew-resize z-30 portfolio-slider" data-target="slide-pane-1">
+                
+                <span class="absolute bottom-4 left-4 bg-black/70 px-3 py-1 text-[9px] uppercase tracking-widest font-mono pointer-events-none z-10">Before Version</span>
+                <span class="absolute bottom-4 right-4 bg-blue-600 px-3 py-1 text-[9px] uppercase tracking-widest font-mono pointer-events-none z-10">After Version</span>
+            </div>
+        </div>
+
+        <div class="space-y-3">
+            <div class="relative aspect-[4/5] bg-slate-900 overflow-hidden border border-slate-800 img-container-box">
+                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://ajwindowsnmore.com/wp-content/uploads/2024/08/before2.jpg');"></div>
+                
+                <div id="slide-pane-2" class="absolute inset-y-0 left-0 overflow-hidden" style="width: 50%; border-right: 2px solid #2563eb;">
+                    <div class="absolute inset-0 bg-cover bg-center inner-frozen-img" style="background-image: url('https://ajwindowsnmore.com/wp-content/uploads/2024/08/after2.jpg');"></div>
+                </div>
+                
+                <input type="range" min="0" max="100" value="50" class="absolute inset-0 opacity-0 w-full h-full cursor-ew-resize z-30 portfolio-slider" data-target="slide-pane-2">
+                
+                <span class="absolute bottom-4 left-4 bg-black/70 px-3 py-1 text-[9px] uppercase tracking-widest font-mono pointer-events-none z-10">Before Version</span>
+                <span class="absolute bottom-4 right-4 bg-blue-600 px-3 py-1 text-[9px] uppercase tracking-widest font-mono pointer-events-none z-10">After Version</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .img-container-box {
+        position: relative;
+    }
+    .img-container-box .inner-frozen-img {
+        width: 100%;
+        height: 100%;
+        max-width: none;
+    }
+</style>
+
+<script>
+    function updateSliderPanes() {
+        document.querySelectorAll('.portfolio-slider').forEach(slider => {
+            const targetId = slider.getAttribute('data-target');
+            const pane = document.getElementById(targetId);
+            if (pane) {
+                // Dynamic width adjustment
+                pane.style.width = `${slider.value}%`;
+                
+                // Force the inner moving layer image to match the exact pixel width of the whole card
+                const container = slider.closest('.img-container-box');
+                const innerImg = pane.querySelector('.inner-frozen-img');
+                if (container && innerImg) {
+                    innerImg.style.width = `${container.offsetWidth}px`;
+                }
+            }
+        });
+    }
+
+    // Run on user input
+    document.querySelectorAll('.portfolio-slider').forEach(slider => {
+        slider.addEventListener('input', updateSliderPanes);
+    });
+
+    // Run on page load and window resize to keep pixel locks perfectly precise
+    window.addEventListener('DOMContentLoaded', updateSliderPanes);
+    window.addEventListener('resize', updateSliderPanes);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="about" class="py-24 bg-white px-6 lg:px-12">
+        <div class="max-w-[1700px] mx-auto">
+            <div class="grid lg:grid-cols-12 gap-12 items-start">
+                <div class="lg:col-span-5 space-y-8">
+                    <div>
+                        <h2 class="font-display font-extrabold text-4xl sm:text-6xl tracking-tighter text-slate-900 uppercase leading-[0.9]">
+                            About Us.
+                        </h2>
+                    </div>
+                    <div class="w-full h-[500px] bg-slate-100 overflow-hidden relative border border-slate-200">
+                        <img src="https://ajwindowsnmore.com/wp-content/uploads/2024/09/About-us-768x1024.jpeg" alt="A&J Team member on high elevation tracking system" class="w-full h-full object-cover object-top">
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 space-y-12 lg:pt-16">
+                    <p class="font-display font-bold text-2xl sm:text-3xl text-slate-900 leading-snug">
+                        Owned and operated by brothers Allux and Jakub Montoya, A&J Window Cleaning is a locally owned business based in Grantsville, Utah.
+                    </p>
+                    <div class="grid sm:grid-cols-2 gap-8 text-slate-600 font-light text-base leading-relaxed">
+                        <p>
+                            With 5 years of experience, A&J Window Cleaning has become a trusted name across Utah, from Tooele County and Salt Lake City to Ogden and Provo. Our dedication to quality and customer satisfaction sets us apart, and we take pride in helping homes shine.
+                        </p>
+                        <p>
+                            As a family-operated company, we understand the value of building lasting relationships with our clients by providing dependable, top-notch service. Whether you’re in the heart of Salt Lake City or nestled in the suburbs, A&J Window Cleaning is your go-to source for crystal-clear windows across Utah.
+                        </p>
+                    </div>
+
+                    <div class="border-t border-slate-200 pt-10 grid sm:grid-cols-12 gap-6 items-center">
+                        <div class="sm:col-span-4">
+                            <h4 class="font-display font-extrabold text-xl uppercase tracking-tight text-slate-900">Why Choose Us?</h4>
+                            <img src="https://ajwindowsnmore.com/wp-content/uploads/2024/08/licensed-and-insured-badge.png" alt="Licensed and Insured Validation Badge" class="h-16 w-auto mt-4 object-contain">
+                        </div>
+                        <div class="sm:col-span-8">
+                            <p class="text-xs text-slate-500 leading-relaxed font-light">
+                                For over 4 years, A&J Window Cleaning has been a trusted, family-owned business serving Tooele County with a commitment to quality, punctuality, and professionalism. Fully licensed and insured, we pride ourselves on delivering exceptional service that you can rely on. As a local business deeply rooted in the community, we understand the importance of providing meticulous work that meets the highest standards.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-24 bg-slate-50 border-t border-b border-slate-200 px-6 lg:px-12">
+        <div class="max-w-[1700px] mx-auto">
+            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-end mb-16 gap-6">
+                <div>
+                    <h2 class="font-display font-extrabold text-4xl sm:text-6xl tracking-tighter text-slate-900 uppercase">What our clients say</h2>
+                </div>
+                <a href="https://www.google.com/search?q=a%26j+window+cleaning&amp;oq=A%26&amp;gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIMCAEQABhDGIAEGIoFMhAIAhAuGMcBGLEDGNEDGIAEMhMIAxAuGIMBGMcBGLEDGNEDGIAEMgYIBBBFGDkyEggFEC4YQxivARjHARiABBiKBTIMCAYQABhDGIAEGIoFMgYIBxBFGD3SAQg0MDgyajBqN6gCALACAA&amp;sourceid=chrome&amp;ie=UTF-8#lrd=0x2886f7c50000c05d:0x1bdea62e427ccc25,1,,,," target="_blank" rel="noopener" class="inline-block hover:opacity-80 transition">
+                    <img src="https://ajwindowsnmore.com/wp-content/uploads/2024/08/1-1.jpg" alt="Google Premium Review Entry Asset" class="h-12 w-auto object-contain bg-white p-2 border border-slate-200">
+                </a>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-6">
+                <div class="bg-white p-10 border border-slate-200 flex flex-col justify-between space-y-8">
+                    <div class="space-y-4">
+                        <img src="https://ajwindowsnmore.com/wp-content/uploads/2024/08/5_stars.png" alt="5 Star Scale Tracking" class="h-4 w-auto object-contain">
+                        <p class="text-slate-600 font-light text-sm leading-relaxed italic">
+                            "Allux and his team did an amazing job on my window cleaning! Great company to work with from start to finsh. My house is not the average job and they handled it with ease. They have a great price for the services they offer. Wonderful window cleaning service!!! Will definitely use them again next time."
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-100">
+                        <h4 class="font-display font-bold text-base text-slate-900 uppercase tracking-tight">Riley palmer</h4>
+                        <span class="text-[10px] font-mono text-slate-400 uppercase tracking-widest">Structural Verification Verified</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-10 border border-slate-200 flex flex-col justify-between space-y-8">
+                    <div class="space-y-4">
+                        <img src="https://ajwindowsnmore.com/wp-content/uploads/2024/08/5_stars.png" alt="5 Star Scale Tracking" class="h-4 w-auto object-contain">
+                        <p class="text-slate-600 font-light text-sm leading-relaxed italic">
+                            "I have used their service several times now. My windows always look great and their service is thoughtful and thorough. I won’t use anyone else. There prices are very reasonable as well."
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-100">
+                        <h4 class="font-display font-bold text-base text-slate-900 uppercase tracking-tight">Thanna Holmes</h4>
+                        <span class="text-[10px] font-mono text-slate-400 uppercase tracking-widest">Recurring Operational Schedule Account</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-10 border border-slate-200 flex flex-col justify-between space-y-8">
+                    <div class="space-y-4">
+                        <img src="https://ajwindowsnmore.com/wp-content/uploads/2024/08/5_stars.png" alt="5 Star Scale Tracking" class="h-4 w-auto object-contain">
+                        <p class="text-slate-600 font-light text-sm leading-relaxed italic">
+                            "These guys came and did a very thorough job-they fit us into their schedule quickly and were prompt and professional. I will use them again. Nice job!"
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-100">
+                        <h4 class="font-display font-bold text-base text-slate-900 uppercase tracking-tight">Grant Peterson</h4>
+                        <span class="text-[10px] font-mono text-slate-400 uppercase tracking-widest">Regional Execution Asset</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 w-full h-[300px] bg-slate-900 overflow-hidden relative">
+                <img src="https://ajwindowsnmore.com/wp-content/uploads/2024/08/ladder.jpg" alt="A&J Infrastructure Deployment Ladder System" class="w-full h-full object-cover object-center ">
+            </div>
+        </div>
+    </section>
+
+    <section id="quote" class="bg-slate-950 text-white py-24 px-6 lg:px-12 relative overflow-hidden">
+        <div class="max-w-[1700px] mx-auto grid lg:grid-cols-12 gap-16 relative z-10">
+            
+            <div class="lg:col-span-5 space-y-8">
+                <div>
+                    <h2 class="font-display font-extrabold text-5xl sm:text-7xl tracking-tighter uppercase text-white mt-2 leading-[0.85]">
+                        Get in <br>touch.
+                    </h2>
+                </div>
+                
+                <p class="text-slate-400 font-light text-base leading-relaxed max-w-sm">
+                    Let's get your windows looking like new. Send over your information using our quick quote form below, or reach out via phone for immediate assistance.
+                </p>
+
+                <div class="space-y-4 pt-8 border-t border-slate-800 max-w-xs">
+                    <a href="tel:435-338-1628" class="block group">
+                        <span class="text-[10px] font-mono text-slate-500 block uppercase font-bold">Phone Number</span>
+                        <span class="text-xl font-display font-bold group-hover:text-blue-500 transition text-white">(435) 338-1628</span>
+                    </a>
+                    <a href="mailto:ajwindows02@gmail.com" class="block group">
+                        <span class="text-[10px] font-mono text-slate-500 block uppercase font-bold">Email Pipeline</span>
+                        <span class="text-xl font-display font-bold group-hover:text-blue-500 transition text-white">ajwindows02@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="lg:col-span-7 bg-white text-slate-950 p-8 sm:p-12">
+                <form action="#" method="POST" class="space-y-6" onsubmit="event.preventDefault(); alert('Logistical Data Transmitted.');">
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div class="space-y-1">
+                            <label class="text-[15px] font-mono uppercase font-bold text-slate-400">Name</label>
+                            <input type="text" required placeholder="Name" class="w-full bg-slate-50 border-b border-slate-300 focus:border-blue-600 px-4 py-3 outline-none transition text-sm font-medium">
+                        </div>
+                        <div class="space-y-1">
+                            <label class="text-[15px] font-mono uppercase font-bold text-slate-400">Email</label>
+                            <input type="email" required placeholder="Email Address" class="w-full bg-slate-50 border-b border-slate-300 focus:border-blue-600 px-4 py-3 outline-none transition text-sm font-medium">
+                        </div>
+                    </div>
+
+                    <div class="space-y-1">
+                        <label class="text-[15px] font-mono uppercase font-bold text-slate-400">Details</label>
+                        <textarea rows="4" placeholder="Message" class="w-full bg-slate-50 border-b border-slate-300 focus:border-blue-600 px-4 py-3 outline-none transition text-sm font-medium"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-slate-900 text-white font-display font-extrabold uppercase tracking-widest py-5 transition text-xs">
+                        Send Request <i class="fa-solid fa-paper-plane ml-2"></i>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-slate-500 pt-20 pb-10 border-t border-slate-900 px-6 lg:px-12">
+        <div class="max-w-[1700px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+            
+            <div class="space-y-4">
+                <img src="https://ajwindowsnmore.com/wp-content/uploads/2024/08/full-logo-square-transparent.png" alt="A&J Square Logo Asset" class="h-20 w-auto object-contain ">
+                <p class="text-[10px] font-mono uppercase tracking-wider text-slate-700">
+                    A&J Window Cleaning <br>Tooele, Utah 84074
+                </p>
+            </div>
+
+            <div class="space-y-2 text-sm">
+                <p class="font-bold text-slate-300">Mon – Fri | 9AM – 5PM</p>
+                <p class="text-xs text-slate-700 font-mono">Continuous Field Pipeline Active</p>
+            </div>
+
+            <div class="space-y-4">
+                <div class="flex flex-col space-y-2 text-xs font-bold uppercase tracking-widest">
+                    <a href="https://www.facebook.com/p/AJ-window-cleaning-100068180612500/" target="_blank" class="hover:text-blue-500 text-slate-400 transition">Facebook Link</a>
+                    <a href="https://www.instagram.com/aj_window_cleaning/" target="_blank" class="hover:text-blue-500 text-slate-400 transition">Instagram Link</a>
+                </div>
+            </div>
+
+            <div class="space-y-2 text-xs font-mono text-slate-600">
+                <p>Phone Lookup: (435) 338-1628</p>
+                <p>MX Host: ajwindows02@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="max-w-[1700px] mx-auto pt-8 border-t border-slate-900 flex flex-col sm:flex-row justify-between text-[10px] uppercase tracking-widest text-slate-700 font-mono gap-4">
+            <p>&copy; 2026 A&J Window Cleaning. All rights reserved.</p>
+            <p>Designed and Developed by <a href="https://proconstructdigital.com/" target="_blank" class="text-blue-500 hover:underline">ABDUL RAHMAN
+        </div>
+    </footer>
+
+    <script>
+        // Responsive Mobile Bar Drawer Controller
+        const toggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        toggle.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+        // High-performance multiple split slider control logic arrays
+        const sliders = document.querySelectorAll('.portfolio-slider');
+        sliders.forEach(slider => {
+            slider.addEventListener('input', (e) => {
+                const targetId = slider.getAttribute('data-target');
+                const targetPane = document.getElementById(targetId);
+                if(targetPane) {
+                    targetPane.style.width = `${e.target.value}%`;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
